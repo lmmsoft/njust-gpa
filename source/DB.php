@@ -229,35 +229,6 @@ class DB {
             return $ret;
         }
     }
-
-    public function lib_insert_book_info($book_info) {
-        $sql = "replace INTO `njustgpa`.`lib_book_info` (`marc_no`,`code`, `page`, `price`) VALUES ('%s','%s', '%s', '%s');";
-        $query = sprintf(
-                $sql, $book_info->marc_no, $book_info->zhongtufa, $book_info->page, $book_info->price
-        );
-//        $query = sprintf(
-//                $sql, mysql_real_escape_string($book_info->marc_no), mysql_real_escape_string($book_info->code), mysql_real_escape_string($book_info->page), mysql_real_escape_string($book_info->price)
-//        );
-        echo "插入:$query <br />\n";
-        mysql_query($query);
-    }
-
-    public function lib_check_book_info($marc_no) {
-        $sql = "SELECT id
-            FROM `njustgpa`.`lib_book_info`
-            where `marc_no`='%s' ";
-
-        $query = sprintf($sql, mysql_real_escape_string($marc_no));
-        //验证是否成功查询
-        if ($query_result = mysql_query($query)) {
-            if ($row = mysql_fetch_array($query_result)) {
-                return TRUE;
-            }
-            mysql_free_result($query_result);
-        }
-        return FALSE;
-    }
-
 }
 
 ?>

@@ -23,6 +23,7 @@
                     <td><input TYPE="reset" VALUE=" 重置 "></td></tr>
             </table>
         </FORM>
+		<h5>因网络不稳定，前段时间出现访问异常，现已全部修复，有问题欢迎lmmsoft[at]126.com交流</h5>
         <hr />
         <h3>打印课表太麻烦？试试<a href=index_print.php>课表一键打印</a></h3>
 <!--        <h3>找自习室太麻烦？试试<a href=classroom.php>南理工自习教室推荐</a></h3>-->

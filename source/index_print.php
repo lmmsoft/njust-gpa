@@ -51,6 +51,16 @@
         <h3><a href=index.php>回GPA查询</a></h3>
 <!--        <h3>找自习室太麻烦？试试<a href=classroom.php>南理工自习教室推荐</a></h3>-->
         <h3>评教太麻烦？试试<a href=pingjiao/>南理工评教助手</a></h3>
+		<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-27089866-6', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </body>
 </html>
 <?php

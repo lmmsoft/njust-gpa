@@ -5,7 +5,7 @@
 # About
 
 # 生产环境
-1. php 5.4
+1. PHP 5.4
 2. MySQL 5.1
 3. 本地测试 apache
 4. 线上环境 阿里云 ACE
