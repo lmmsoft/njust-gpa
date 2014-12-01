@@ -176,7 +176,9 @@ class Show {
     <?php
 
     class Main {
-        static public $url_jwc = 'http://jwc.njust.edu.cn:6666/';   //http://219.230.100.200:6666/';
+        static public $url_jwc2 = 'http://jwc.njust.edu.cn:6666/';
+        static public $url_jwc = 'http://219.230.100.200:6666/';
+        
         static public $url_this_term = 'http://219.230.100.200:6666/pls/wwwbks/bkscjcx.curscopre';
         private $uid, $pwd;
 
@@ -211,8 +213,8 @@ class Show {
 
     }
 
-    $url_jwc2 = 'http://219.230.100.200:6666/';
-    $url_jwc = 'http://jwc.njust.edu.cn:6666/';
+    $url_jwc = 'http://219.230.100.200:6666/';
+    $url_jwc2 = 'http://jwc.njust.edu.cn:6666/';
 
     $pages09 = array(
         '通识教育课' => $url_jwc . 'pls/wwwbks/bkscjcx.tsjykcx',
